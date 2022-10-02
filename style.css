@@ -1,0 +1,39 @@
+
+
+header{
+    width: 100vw;
+
+}
+
+nav {
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background: lightblue;
+    overflow-x: hidden;
+    transition: .3s;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    width: 120px;
+}
+nav a{
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    display: block;
+    transition: .2s;
+}
+span {
+    font-size: 25px;
+    cursor: pointer;
+
+}
+.close {
+    color: red;
+    font-size: 40px;
+    position: absolute;
+    left: 50px;
+    top: 0;
+}
